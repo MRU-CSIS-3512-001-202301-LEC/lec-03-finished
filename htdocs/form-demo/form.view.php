@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>From Play</title>
+    <title>Form Play</title>
 </head>
 
 <body>

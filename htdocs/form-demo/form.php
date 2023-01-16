@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     $image_id = $_POST['image-id'];
 } else if ($_SERVER['REQUEST_METHOD'] === "GET") {
     $msg = "Coming in from a GET";
-    $image_id = $_GET['image-id'];
+    $image_id = $_GET['image-id'] ?? '';
 }
 
 if (array_key_exists($image_id, $db_of_pics)) {
